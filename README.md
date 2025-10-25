@@ -2,10 +2,9 @@
 
 > Áp dụng cho ứng dụng: **Ứng dụng Quản Lý Hạn Sử Dụng (HSD) – Tam Hảo QA/QC**
 > Phiên bản: 1.0
-> Ngày hiệu lực: **[điền ngày]**
-> Chủ sở hữu/Đơn vị vận hành: **[Tên cá nhân/doanh nghiệp]**
-> Email liên hệ: **[email liên hệ]**
-> Địa chỉ liên hệ (tuỳ chọn): **[địa chỉ]**
+> Ngày hiệu lực: **25/10/2025**
+> Chủ sở hữu/Đơn vị vận hành: **Trần Đình Thụ**
+> Email liên hệ: **tranthu4588@gmail.com**
 
 ---
 
@@ -102,7 +101,6 @@ Bạn có thể **tự xoá** dữ liệu nghiệp vụ trong ứng dụng (nế
 Chúng tôi **không bán** dữ liệu cá nhân. Dữ liệu chỉ được chia sẻ với:
 
 * **Google Firebase** (Authentication, Firestore) để xác thực và lưu trữ.
-* **Dịch vụ phân tích/lỗi** (tuỳ chọn, nếu bật): ví dụ Firebase Crashlytics/Analytics.
 * **Cơ quan nhà nước** khi pháp luật yêu cầu.
 
 Các nhà cung cấp dịch vụ được ràng buộc về bảo mật và chỉ xử lý dữ liệu theo hướng dẫn từ chúng tôi.
@@ -153,40 +151,9 @@ Chúng tôi có thể cập nhật chính sách này theo thời gian. Phiên b�
 ## 16. Liên hệ
 
 Nếu có câu hỏi, yêu cầu truy cập/xoá dữ liệu, hoặc khiếu nại, vui lòng liên hệ:
-**Email:** [email liên hệ]
-**Điện thoại (tuỳ chọn):** [số điện thoại]
-**Địa chỉ (tuỳ chọn):** [địa chỉ]
+**Email:** [tranthu4588@gmail.com]
 
 ---
-
-# HƯỚNG DẪN TRIỂN KHAI TRÊN GITHUB PAGES
-
-Bạn có 2 cách phổ biến để public trang chính sách:
-
-## Cách A — Dùng repo chuyên cho chính sách (đường dẫn đẹp)
-
-1. Tạo repo mới, ví dụ: `hsd-privacy-policy`.
-2. Thêm file **`index.html`** (mẫu ở dưới) vào thư mục gốc.
-3. Vào **Settings → Pages**:
-
-   * **Source**: chọn **Deploy from a branch**.
-   * **Branch**: chọn **`main`** và **`/ (root)`**.
-   * Lưu. GitHub sẽ cấp URL dạng: `https://<username>.github.io/hsd-privacy-policy/`.
-
-## Cách B — Dùng repo user/site (đường dẫn ngắn nhất)
-
-1. Nếu bạn đã có repo `username.github.io`, chỉ cần đặt file trong đó.
-2. Dùng thư mục con, ví dụ: `/hsd/privacy/` với `index.html`.
-3. URL sẽ là: `https://<username>.github.io/hsd/privacy/`.
-
-> **Tuỳ chọn domain riêng:** Trỏ CNAME của domain riêng về `username.github.io`, thêm file `CNAME` vào repo chứa domain.
-
----
-
-## MẪU `index.html` (dán vào repo GitHub Pages)
-
-> Bạn có thể chỉnh sửa các placeholder trong phần **Thông tin ở đầu** của chính sách.
-
 ```html
 <!doctype html>
 <html lang="vi">
